@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: rgb(243, 243, 243);
+}
+body{
+    background-color: rgba(50, 50 ,50);
+}
+section{
+    display: flex;
+    margin-top: 1vw;
+    background: linear-gradient(368deg ,#8E3200,#A64B2A,#D7A86E,#FFEBC1);
+    background-size: 150% 150%;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    animation: fadeIn 4s ease infinite alternate;
+}
+@keyframes fadeIn{
+   0% {
+    background-position-y: 0%;
+   }
+   100% {
+    background-position-y: 100%;
+   }
+}
+.cordel {
+    background-color: #8e3200bd;
+    margin: auto;
+    border: 3px solid #8E3200
+}
+.cordel div {
+   
+    background-color: red;
+    text-align: center;
+    background: aliceblue;
+    border: solid black;
+    background-color: red;
+    
+}
+
+.rodape {
+    display: flex;
+    background: linear-gradient(360deg ,#8E3200,#A64B2A,#D7A86E,#FFEBC1);
+    background-size: 150% 350%;
+    text-align: center;
+    justify-content: center;
+    margin-top: 29.5vh;
+    padding: 26px;
+    animation: fadeIn 4s ease infinite alternate;
+}
+@keyframes fadeIn{
+   0% {
+    background-position-y: 0%;
+   }
+   100% {
+    background-position-y: 100%;
+   }
+}
+    
